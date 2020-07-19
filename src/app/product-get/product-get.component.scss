@@ -1,0 +1,18 @@
+table {
+    td,
+    th {
+        width: 25%;
+        vertical-align: middle;
+        text-align: center;
+    }
+    th {
+        .sortorder {
+            &:after {
+                content: '\25b2'; // up pointer
+            }
+            &.reverse:after {
+                content: '\25bc'; // down pointer
+            }
+        }
+    }
+}

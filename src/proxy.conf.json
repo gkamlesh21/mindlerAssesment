@@ -1,0 +1,7 @@
+{
+    "/api": {
+        "target": "https://mindler-dashboard.s3.us-east-2.amazonaws.com",
+        "secure": false,
+        "logLevel": "debug"
+    }
+}
